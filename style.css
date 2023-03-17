@@ -1,0 +1,420 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section{
+    margin: 3rem 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 20%;
+    background-color: #f2f2f2;
+}
+
+nav a{
+    text-decoration: none;
+    max-height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .googleLogo img{
+    
+    max-height: 8rem;
+}
+
+nav .callBtn{
+    padding: 0.5rem;
+    background-color: #f16d27;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 0.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .callBtn img{
+    max-height: 1.2rem;
+    margin: 0 0.5rem 0 0;
+}
+
+.container{
+    width: 75vw;
+    margin: 0 12.5%;
+}
+
+.container .section-1{
+    width: 70%;
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container .section-1 .mainTagLine{
+    margin-top: 5rem;
+    font-size: 2.5rem;
+    text-align: center;
+    
+}
+
+.container .section-1 .mainTagLine span{
+    /* font-weight: 900; */
+    color: #f16d27;
+}
+
+.container .section-1 .supportTagLine{
+    margin: 1rem;
+    text-align: center;
+}
+
+.container .section-1 button{
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .section-1 button img{
+    max-height: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+.section-2{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.section-2 img{
+    width: 135%;
+}
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.section-3 .mainTagLine1{
+    font-size: 2rem;
+    padding: 0 0 1.5rem 0;
+}
+
+.section-3 .content1{
+    text-align: center;
+    padding: 0.6rem;
+    font-size: 1rem;
+}
+
+.section-3 button{
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 button img{
+    max-height: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+.section-4 .sectionHeader4{
+    font-size: 2rem;
+    padding: 0 0 1.5rem 0;
+}
+
+.section-4 .companyItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 0 3rem 0;
+}
+
+.section-4 .companyItems .cardItems{
+    width: 44%;
+    background-color: #f2f2f2;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+
+.section-4 .thirdItem{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-4 .thirdItem .horLine{
+    min-width: 0.4rem;
+    background-color: #dbd5d5;
+    min-height: 100%;
+    margin-right: 2rem;
+}
+
+.section-4 .thirdItem .title1{
+    font-size: 1.5rem;
+    margin-right: 7rem;
+    text-align: center;
+}
+
+.logo img{
+    max-height: 4rem;
+    max-width: 10rem;
+}
+
+.logo{
+    padding: 0 0 1rem 0;
+}
+
+ .content12{
+    font-size: 1rem;
+}
+
+ .content12 a{
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    color: black;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.arrowImg{
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+    margin-left: 0.3rem;
+}
+
+
+.section-5{
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+}
+
+.section-5 .p1{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.row3{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+
+.column3{
+    min-width: 20%;
+    max-width: 20%;
+    /* margin-right:25px; */
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+
+.column3 img{
+    max-width: 70%;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.column3 p{
+    font-size: 1.2rem;
+}
+
+
+.row4{
+    margin-top: -1.9rem;
+}
+
+
+
+
+
+
+
+.girlpic{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+.girlpic .coform{
+    border: 2px solid rgb(215, 216, 215);
+    padding: 3rem;
+    border-radius: 10px;
+    min-height: 100%;
+}
+
+
+form input{
+    width: 25rem;
+    font-size: 1rem;
+    padding: 1rem;
+    background-color:#F3F3F3;
+    border:#F2F2F2;
+    border-radius: 10px;
+}
+
+.title1 ul li{
+    list-style: none;
+    text-align: start;
+    width: 15rem;
+    color: #7e7c7c;
+}
+
+.title1 ul li{
+    color: black;
+}
+
+
+.column2{
+    width: 25%;
+    margin-left:25px;
+    
+}
+.column2 img{
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+}
+
+
+
+
+#testimonial{
+    width: 100%;
+    padding: 10% 0;
+}
+.testimonial-row{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.testimonial-col{
+    flex-basis: 25%;
+    padding: 2rem;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 3px #00968814;
+    cursor: pointer;
+    transition: transform 0.5s;
+    background-color: #ebe8e8;
+    
+}
+.testimonial-col p{
+    font-size: 20px; 
+    color: rgb(85, 84, 84);
+}
+.user{
+    display: flex;
+    align-items: center;
+
+}
+
+.testimonial-col:hover{
+    transform: translateY(15px);
+}
+@media screen and (max-width:770px){
+    .testimonial-col{
+        flex-basis: 100%;
+    }
+}
+
+
+
+.secondTemplate {
+    transform: scale(0.8);
+    margin-left: 4rem;
+    margin-bottom: -5rem;
+}
+
+
+
+
+
+/* CSS */
+.button-5 {
+  align-items: center;
+  background-clip: padding-box;
+  background-color: #f16d27;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-5:hover,
+.button-5:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.button-5:hover {
+  transform: translateY(-1px);
+}
+
+.button-5:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
